@@ -113,7 +113,7 @@ namespace _4th_Degree__equation
 
         static void DeltaMniejsza(double w, double p, double q, double delta)
         {
-            Console.WriteLine("Trzy pierowstki rzeczyswiste.");
+            Console.WriteLine("Trzy pierwiastki rzeczyswiste.");
 
             double fi = Math.Acos((3 * q) / (2 * p * Math.Sqrt(-p / 3.0)));
             Console.WriteLine($"fi= {fi}");
